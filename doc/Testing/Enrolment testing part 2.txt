@@ -1,0 +1,21 @@
+ Module.print();
+ Module Code; CO452: Programming concepts
+ Credit: 0
+
+Module.setCredit(15);
+Module.print();
+ Module Code; CO452: Programming concepts
+ Credit: 15
+
+Course Programming = new Course("MT1CYS1", "Bsc Cyber security");
+Programming.assignModule(Module);
+Programming.print();
+----------------------------------
+    App211: Course Details
+----------------------------------
+
+ Course Code; MT1CYS1: Bsc Cyber security
+ Module Code; CO452: Programming concepts
+ Credit: 15
+
+
