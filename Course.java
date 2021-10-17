@@ -26,20 +26,22 @@ public class Course
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * This prints out the details of the course, the list of students
+     * enrolled and the module.
      */
     public void print()
     {
         printHeading();
         
         System.out.println(" Course Code; " + code + ": "+ title);
+        module.print();
         System.out.println();
         
     }
     
+    /**
+     * Prints out the details of the course to the terminal
+     */
     private void printHeading()
     {
        System.out.println("----------------------------------");

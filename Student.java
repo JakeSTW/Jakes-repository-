@@ -32,6 +32,9 @@ public class Student
         return name;
     }
     
+    /**
+     * Return the student ID of this student.
+     */
     public int getID()
         {
         return id;
@@ -42,6 +45,9 @@ public class Student
         this.course = course;
     }
     
+    /**
+     * Print the students name and ID number to the output terminal
+     */
     public void print()
     {
         System.out.println("Student ID: + id + Name: " + name);
