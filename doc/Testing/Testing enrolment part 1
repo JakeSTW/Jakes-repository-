@@ -1,0 +1,19 @@
+Course computing = new Course("BT1CTG1", "Bsc Computing");
+computing.print();
+----------------------------------
+    App211: Course Details
+----------------------------------
+
+ Course Code; BT1CTG1: Bsc Computing
+    Exception occurred.
+Student student = new Student("jake", 22133719);
+student.print();
+Student ID:22133719 Name: jake
+student.enrol(computing);
+computing.print();
+----------------------------------
+    App211: Course Details
+----------------------------------
+
+ Course Code; BT1CTG1: Bsc Computing
+    Exception occurred.
