@@ -65,7 +65,7 @@ public class Student
      */
     public void awardTestMarks()
     {
-        
+        ModuleMark co452Mark = new ModuleMark();
     }
     
     /**
