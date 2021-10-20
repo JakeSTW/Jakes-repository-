@@ -3,65 +3,55 @@
  * Write a description of class Module here.
  *
  * @author (Jake Stewart)
- * @version (13/10/21)
+ * @version (20/10/21)
  */
 public class Module
 {
-    // instance variables - replace the example below with your own
+    // Most modules are worth 15 credits
+    public static final int CREDIT = 15;
+    
     private String code;
     private String title;
-    private int credit;
 
     /**
-     * Module constructor assigns the code and title for a module
-     * it also intialises the credit value to 0 
+     * Constructor for objects of class Module 
+     * which initialises the module code and title
      */
     public Module(String code, String title)
     {
-        // initialise instance variables
         this.code = code;
         this.title = title;
-        this.credit = 0;
     }
 
-    /**
-     * This module returns code for the module
-     *
-     *@return code represent the module code
-     */
+   
     public String getCode()
     {
-        // put your code here
         return code;
     }
     
+    
     public String getTitle()
     {
-        // put your code here
         return title;
     }
     
-    public int getCredit()
+    /**
+     * Print out the code and title of this module
+     * but stay on the same line so that credits
+     * can be added if needed.
+     */
+    public void print()
     {
-        // put your code here
-        return credit;
+        System.out.println();
+        System.out.print(" " + code + ": " + "\t" + title);
     }
     
-    public void setCredit(int credit)
-   {
-       this.credit = credit;
-   }
-   
-   /**
-    * print the details of the module which includes
-    * the code, title and credits
-    */
-   
-   public void print()
+    /**
+     * Print out the credit on the current line
+     * so that a mark and grade could be added
+     */
+    public void printCredit()
     {
-        System.out.println(" Module Code; " + code + ": "+ title);
-        System.out.println(" Credit: " + credit);
-        System.out.println();
-        
+        System.out.print("\t  " + CREDIT + " credits");
     }
 }
