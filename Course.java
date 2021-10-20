@@ -3,7 +3,7 @@
  * Write a description of class Course here.
  *
  * @author (Jake Stewart)
- * @version (a version number or a date)
+ * @version (13/10/21)
  */
 public class Course
 {
